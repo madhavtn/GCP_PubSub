@@ -1,0 +1,69 @@
+Publisher Program
+C:\Users\user\Downloads\Code___Setup_For_GCP_Pub_Sub>python gcp_order_data_producer.py
+Published message with ID: 9741626191772803
+Published message with ID: 9344487916891415
+Published message with ID: 9343843407654170
+Published message with ID: 9343393179109022
+Published message with ID: 9019554009228462
+Published message with ID: 9741720831938594
+Published message with ID: 9731307567931477
+Published message with ID: 9741481533141521
+Published message with ID: 9601368608337826
+Published message with ID: 9019540192457746
+Published message with ID: 9741673326034151
+Published message with ID: 9741639589325987
+Published message with ID: 9344573478897636
+Published message with ID: 9741800810170384
+Published message with ID: 9741734698805625
+Published message with ID: 9731299307890634
+Published message with ID: 9343600624747053
+Published message with ID: 9731301222201267
+..........................
+
+Messages recieved in GCP Pub/Sub Topic
+
+Publish time
+Attribute keys
+Message body
+Body JSON keys
+Ordering key
+body.creation_date
+body.customer_id
+body.item
+body.order_id
+body.order_status
+body.price
+body.quantity
+body.shipping_address
+Ack
+12 Nov 2023, 10:14:47	
+—
+{"order_id": 1, "customer_id": 795, "item": "Phone", "quantity": 7, "price": 829.119390035327, "shipping_address": "789 Oak St, City C, Country", "order_status": "Delivered", "creation_date": "2023-09-01"}
+order_idcustomer_iditemquantitypriceshipping_addressorder_statuscreation_date
+—	2023-09-01	795	Phone	1	Delivered	829.119390035327	7	789 Oak St, City C, Country	Deadline exceeded		
+12 Nov 2023, 10:14:49	
+—
+{"order_id": 2, "customer_id": 390, "item": "Tablet", "quantity": 2, "price": 1037.496319889765, "shipping_address": "456 Elm St, City B, Country", "order_status": "Cancelled", "creation_date": "2023-09-01"}
+order_idcustomer_iditemquantitypriceshipping_addressorder_statuscreation_date
+—	2023-09-01	390	Tablet	2	Cancelled	1037.496319889765	2	456 Elm St, City B, Country	Deadline exceeded		
+12 Nov 2023, 10:14:50	
+—
+{"order_id": 3, "customer_id": 163, "item": "Book", "quantity": 6, "price": 420.86660987036686, "shipping_address": "123 Main St, City A, Country", "order_status": "Pending", "creation_date": "2023-09-01"}
+order_idcustomer_iditemquantitypriceshipping_addressorder_statuscreation_date
+—	2023-09-01	163	Book	3	Pending	420.86660987036686	6	123 Main St, City A, Country	Deadline exceeded		
+12 Nov 2023, 10:14:51	
+—
+{"order_id": 4, "customer_id": 865, "item": "Phone", "quantity": 2, "price": 1396.8245548363327, "shipping_address": "123 Main St, City A, Country", "order_status": "Cancelled", "creation_date": "2023-09-01"}
+order_idcustomer_iditemquantitypriceshipping_addressorder_statuscreation_date
+—	2023-09-01	865	Phone	4	Cancelled	1396.8245548363327	2	123 Main St, City A, Country	Deadline exceeded		
+12 Nov 2023, 10:14:53	
+—
+{"order_id": 5, "customer_id": 494, "item": "Monitor", "quantity": 7, "price": 1264.2957118240795, "shipping_address": "123 Main St, City A, Country", "order_status": "Delivered", "creation_date": "2023-09-01"}
+order_idcustomer_iditemquantitypriceshipping_addressorder_statuscreation_date
+—	2023-09-01	494	Monitor	5	Delivered	1264.2957118240795	7	123 Main St, City A, Country	Deadline exceeded		
+12 Nov 2023, 10:14:54	
+—
+{"order_id": 6, "customer_id": 528, "item": "Book", "quantity": 3, "price": 894.3904201532457, "shipping_address": "456 Elm St, City B, Country", "order_status": "Cancelled", "creation_date": "2023-09-01"}
+order_idcustomer_iditemquantitypriceshipping_addressorder_statuscreation_date
+—	2023-09-01	528	Book	6	Cancelled	894.3904201532457	3	456 Elm St, City B, Country	Deadline exceeded
+
