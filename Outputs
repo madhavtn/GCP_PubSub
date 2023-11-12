@@ -67,3 +67,18 @@ order_idcustomer_iditemquantitypriceshipping_addressorder_statuscreation_date
 order_idcustomer_iditemquantitypriceshipping_addressorder_statuscreation_date
 —	2023-09-01	528	Book	6	Cancelled	894.3904201532457	3	456 Elm St, City B, Country	Deadline exceeded
 
+
+# Consumed Order Data
+C:\Users\user\Downloads\Code___Setup_For_GCP_Pub_Sub>python gcp_order_data_consumer.py
+{'order_id': 6, 'customer_id': 528, 'item': 'Book', 'quantity': 3, 'price': 894.3904201532457, 'shipping_address': '456 Elm St, City B, Country', 'order_status': 'Cancelled', 'creation_date': '2023-09-01'}
+{'order_id': 10, 'customer_id': 960, 'item': 'Laptop', 'quantity': 2, 'price': 884.4378103003942, 'shipping_address': '123 Main St, City A, Country', 'order_status': 'Cancelled', 'creation_date': '2023-09-01'}
+{'order_id': 19, 'customer_id': 277, 'item': 'Monitor', 'quantity': 9, 'price': 1441.3665010617503, 'shipping_address': '456 Elm St, City B, Country', 'order_status': 'Delivered', 'creation_date': '2023-09-01'}
+{'order_id': 20, 'customer_id': 878, 'item': 'Book', 'quantity': 4, 'price': 287.5118905829168, 'shipping_address': '789 Oak St, City C, Country', 'order_status': 'Delivered', 'creation_date': '2023-09-01'}
+{'order_id': 35, 'customer_id': 675, 'item': 'Book', 'quantity': 8, 'price': 1075.246488659233, 'shipping_address': '123 Main St, City A, Country', 'order_status': 'Delivered', 'creation_date': '2023-09-01'}
+{'order_id': 37, 'customer_id': 774, 'item': 'Phone', 'quantity': 10, 'price': 1423.1695412937127, 'shipping_address': '456 Elm St, City B, Country', 'order_status': 'Shipped', 'creation_date': '2023-09-01'}
+{'order_id': 38, 'customer_id': 352, 'item': 'Phone', 'quantity': 9, 'price': 1475.5503563289478, 'shipping_address': '456 Elm St, City B, Country', 'order_status': 'Shipped', 'creation_date': '2023-09-01'}
+{'order_id': 59, 'customer_id': 439, 'item': 'Laptop', 'quantity': 2, 'price': 510.31835227271534, 'shipping_address': '123 Main St, City A, Country', 'order_status': 'Delivered', 'creation_date': '2023-09-01'}
+{'order_id': 60, 'customer_id': 246, 'item': 'Laptop', 'quantity': 2, 'price': 593.7927210891568, 'shipping_address': '789 Oak St, City C, Country', 'order_status': 'Delivered', 'creation_date': '2023-09-01'}
+{'order_id': 61, 'customer_id': 252, 'item': 'Tablet', 'quantity': 1, 'price': 811.0844292814674, 'shipping_address': '789 Oak St, City C, Country', 'order_status': 'Shipped', 'creation_date': '2023-09-01'}
+{'order_id': 1, 'customer_id': 795, 'item': 'Phone', 'quantity': 7, 'price': 829.119390035327, 'shipping_address': '789 Oak St, City C, Country', 'order_status': 'Delivered', 'creation_date': '2023-09-01'}
+
